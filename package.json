@@ -1,8 +1,17 @@
 {
   "name": "c-toast",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A Vue 3 toast notification component library",
+  "main": "dist/c-toast.umd.js",
+  "module": "dist/c-toast.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/c-toast.es.js",
+      "require": "./dist/c-toast.umd.js"
+    },
+    "./style.css": "./dist/style.css"
+  },
+  "files": ["dist"],
   "scripts": {
     "build": "vite build",
     "dev": "vite",
