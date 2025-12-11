@@ -1,0 +1,29 @@
+{
+  "name": "c-toast",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eGodwinbeq/c-toast.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/eGodwinbeq/c-toast/issues"
+  },
+  "homepage": "https://github.com/eGodwinbeq/c-toast#readme",
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.4",
+    "vite": "^5.4.21",
+    "vue": "^3.5.25"
+  }
+}
